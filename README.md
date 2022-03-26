@@ -9,4 +9,23 @@ There are 15,864 tweets, that are divided into training set, test set and valida
 |-------|----------|----------|---------|-------|
 | Train | 4038 | 4038 | 4038 | 12114 |
 | Test | 750 | 750 | 750 | 2250 |
-| Validation | 500 | 500 | 500 |
+| Validation | 500 | 500 | 500 | 1500 |
+
+## Models
+We have used Transformer based models for language modelling and feeded the generated embeddings in the deep learning models. The models used are:
+- ### Transformer based:
+  - mBERT
+  - IndicBERT
+  - MuRIL (baseline)
+
+- ### Deep Learning models
+  - Dense fully connected NN
+  - LSTM
+  - BiLSTM
+
+- ### Machine Learning models
+  - Naive Bayes
+  - Linear SVM
+  - SVM Radial basis functions kernel
+  - Random Forest
+
